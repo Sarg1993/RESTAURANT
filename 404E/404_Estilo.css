@@ -1,0 +1,24 @@
+.bd{
+  background: linear-gradient(to left, #18A6FD, #C61CBC);
+}
+
+.cont{
+  text-align: center;
+  margin-top: 100px;
+}
+a{
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px 15px;
+  background: black;
+  color: white;
+  transition: 0.5s;
+  border-bottom: 5px solid black;
+}
+a:hover{
+  background: #E2A768;
+}
+a:active{
+  border-bottom: 0;
+  box-shadow: 0 0 15px #E2A768;
+}
